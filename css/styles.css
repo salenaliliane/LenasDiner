@@ -1,0 +1,714 @@
+/*******************
+     basic
+*******************/
+
+body {
+  font-family: Lora;
+  background-color: #363636;
+}
+
+a {
+  color: #6C287D;
+}
+
+.border {
+  width: 1040px;
+  margin: auto;
+  background-color: #FFC3C6;
+}
+
+header .border {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.border:first-of-type {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.main {
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 50px;
+  border-top: 1px solid white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#bar {
+  width: 1000px;
+  margin: auto;
+  height: 100px;
+  background-color: #363636;
+}
+
+#bar h1 {
+  float: left;
+  margin: 25px 0 0 35px;
+  font-size: 50px;
+  font-family: Salsa;
+  color: #FFC3C6;
+}
+
+#bar a {
+  float: right;
+  margin: 20px 60px 0 0;
+}
+
+#bar .link-login {
+  margin-top: 40px;
+  margin-right: 20px;
+  color: white;
+}
+
+#bar a img {
+  width: 50px;
+}
+
+nav {
+  width: 1000px;
+  margin: auto;
+  height: 50px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+nav ul{
+  float: left;
+  height: 50px;
+  font-family: Lora;
+  font-size: 22px;
+}
+
+nav ul li:first-of-type {
+  margin-left: 25px;
+}
+
+nav ul li {
+  float: left;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+  background-color: #ECE8F0;
+}
+
+.social-media {
+  float: right;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+.social-media th {
+  vertical-align: middle;
+  padding: 3px;
+  font-family: Lora;
+  font-weight: bold;
+}
+
+.social-media th img {
+  width: 30px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: #FFC3C6;
+}
+
+footer p {
+  margin: 20px auto;
+}
+
+footer a {
+  color: white;
+}
+
+/*******************
+    home page
+*******************/
+.boxes {
+  margin: 20px;
+}
+
+.boxes a {
+  text-decoration: none;
+}
+
+.box{
+  display: inline-block;
+  background: #fff;
+  width: 310px;
+  height: 300px;
+  margin: 20px 3px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid #black;
+}
+
+.box .hoverBox{
+  background: rgba(91, 34, 105, .7);
+  position: relative;
+  top: -100%;
+  height: 20%;
+  transition: all .4s ease;
+  padding: 35px 15px;
+  text-align: left;
+  opacity: 0;
+}
+
+.box .hoverBox h3{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.box .hoverBox h5{
+  color: white;
+  font-size: 18px;
+}
+
+.box:hover .hoverBox{
+  opacity: 4;
+  top: 0;
+}
+
+.highlights {
+  display: block;
+  width: 990px;
+  height: auto;
+  margin: auto;
+}
+
+.highlights h2 {
+  font-family: 'Salsa', cursive;
+  padding: ;
+  text-align: center;
+}
+
+.highlights td {
+  display: inline-block;
+  width: 475px;
+  padding: 10px;
+/*  transform: scale(1);
+  transform-origin: center;
+  -webkit-transition: transform .2s;
+  transition: transform .2s; */
+}
+
+.highlights img {
+  float: left;
+  width: 55%;
+  margin: 9px;
+  border: 1px solid #5B2269;
+}
+
+.highlights h3 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.highlights p {
+  font-size: 14pt;
+  margin: 10px;
+  width: 97%;
+}
+
+.highlights td:hover {
+    background-color: #ECE8F0;
+}
+
+.book-ad {
+    width: 85%;
+  display: block;
+  text-align: center;
+}
+
+.book-ad-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.book-ad-info h2 {
+  font-size: 24px;
+  font-family: Salsa;
+  margin-top: -50px;
+}
+
+.book-ad-info p {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.book-ad-info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/*******************
+    account page
+*******************/
+.lerrors {
+  margin: 80px auto -50px auto;
+  color: red;
+  width: 400px;
+  text-align: center;
+}
+
+.rerrors {
+  margin: 80px auto -100px auto;
+  color: red;
+  width: 400px;
+  text-align: center;
+}
+
+.greetings {
+  margin: 80px auto -50px auto;
+  color: black;
+  width: 400px;
+  text-align: center;
+}
+
+.useredit, .register, .logout, .login {
+  margin: 80px auto 50px auto;
+  width: 400px;
+  height: auto;
+  padding: 20px 0px;
+  border: 10px solid #FFC3C6;
+  white-space: nowrap;
+}
+
+.register, .useredit {
+  margin-top: 180px;
+}
+
+.useredit {
+ white-space: nowrap;
+}
+
+legend {
+	font-size: 20px;
+  font-family: 'Salsa', cursive;
+  text-align: center;
+	margin: 20px auto;
+}
+
+label {
+  display: block;
+	float: left;
+	font-size: 16px;
+	text-align: right;
+	margin: 10px 10px 2px 0px;
+	width: 100px;
+  font-family: 'Lora', sans-serif;
+}
+
+input {
+  display: block;
+	float: left;
+	font-size: 16px;
+	width: 200px;
+	margin: 5px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+	font-weight: bold;
+	display: block;
+  clear: left;
+	float: none;
+	width: 100px;
+	height: 40px;
+	margin: 20px auto 0px auto;
+  color: black;
+  font-family: 'Lora', sans-serif;
+  background-color: White;
+	border-radius: 10px;
+}
+
+fieldset p {
+  text-align: center;
+  margin: 10px;
+  color: black;
+}
+
+fieldset table {
+  margin-left: 80px;
+  width: 260px;
+}
+
+fieldset th {
+  font-weight: bold;
+  height: 30px;
+}
+
+fieldset td {
+  height: 20px;
+}
+
+fieldset tr td:first-of-type {
+  text-align: right;
+}
+
+fieldset tr td:last-of-type {
+  text-align: left;
+  padding-left: 10px;
+}
+
+/*******************
+    store page
+*******************/
+
+.storecolumns {
+  width: 790px;
+  margin: 20px auto;
+  -webkit-column-width: 250px;
+  -moz-column-width: 250px;
+  column-width: 250px;
+}
+
+.filter {
+  margin: 80px auto 0px auto;
+  width: 450px;
+  height: auto;
+  padding: 20px 0px;
+}
+
+.filter legend {
+  font-size: 28px;
+}
+
+.filter label {
+  display: inline-block;
+  float: none;
+  width: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.filter select {
+  display: inline-block;
+}
+
+.displayPost {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  height: 430px;
+  line-height: normal;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.addItem {
+  margin-top: 10px;
+}
+
+.addItem label {
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 11pt;
+}
+
+.displayImage {
+  width: 253px;
+}
+
+/*******************
+      cart
+*******************/
+.cart {
+  width: 650px;
+  height: auto;
+  margin: 100px auto;
+  display: table;
+}
+
+.cartImage {
+  float: left;
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.displayItem {
+  display: inline-block;
+  float: left;
+  width: 350px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+}
+
+.displayItem h1 {
+  display: inline-block;
+  font-size: 15pt;
+  line-height: 45px;
+}
+
+.displayItem p {
+  font-size: 12pt;
+  line-height: 20px;
+}
+
+#totals {
+  display: inline-block;
+  position: relative;
+  margin: 40px;
+  padding: 20px;
+  font-size: 15pt;
+  line-height: 30px;
+  box-shadow: 0px 1px 5px #888888;
+  border: 1px solid black;
+}
+
+#totals p:last-of-type {
+  font-weight: bold;
+}
+
+.remove input{
+  display: inline-block;
+  float: right;
+  margin-top: -50px;
+}
+
+.pastOrders {
+  width: 400px;
+  height: auto;
+  margin: 100px auto;
+  display: table;
+}
+
+.orderInfo {
+  display: block;
+  line-height: normal;
+  padding: 10px;
+  padding-top: 50px;
+  clear: both;
+}
+
+.orderInfo p:first-of-type {
+  font-weight: bold;
+}
+
+/*******************
+    buttons
+*******************/
+
+.filter input[name="submit"]{
+  font-weight: bold;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin: auto 0px auto 30px;
+  font-size: 11pt;
+  border-radius: 10px;
+  background-color: white;
+  font-family: 'Lora', sans-serif;
+}
+
+.addItem input[type="text"]{
+  width: 20px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+.addItem input[name="cart"]{
+  margin: auto;
+  width: 200px;
+}
+
+.logout button {
+  display: block;
+  width: 100px;
+  margin: 10px auto;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.btnregister {
+  background-color: #FFC3C6;
+  padding: 12px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+input[name="btncart"] {
+  background-color: #6C287D;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/*******************
+    media queries
+*******************/
+@media screen and (max-width: 1040px) {
+  .border {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main {
+    width: 95%;
+    margin: auto;
+  }
+
+  #bar {
+    width: 100%;
+  }
+
+  nav {
+    width: 95%;
+  }
+  .box {
+    width: 31.9%;
+
+  }
+  .box .hoverBox {
+    height: 40%;
+  }
+
+  .highlights {
+    width: 90%;
+    margin-top: 70px;
+  }
+  .highlights td{
+    width: 47%;
+    height: 200px;
+  }
+  .book-ad-info {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .storecolumns {
+    width: 90%;
+  }
+  .book-ad {
+      width: 95%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #bar h1 {
+    font-size: 3em;
+    margin: 20px 10px;
+  }
+  #utilities {
+    display: inline-block;
+    float:  none;
+    width: 50px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  #bar a img {
+    width: 40px;
+    display: block;
+ 
+  }
+  #bar .link-login {
+    display:block;
+    clear:both;
+    font-size: 1em;
+    margin: -15px 20px;
+  }
+  nav ul {
+    width: 90%;
+    font-size: 1em;
+  }
+  .social-media {
+    font-size: .8em;
+  }
+  .social-media a img {
+    width: 18px;
+  }
+  .boxes {
+    margin: 50px 20px;
+  }
+  .box {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .book-ad-info img {
+    width: 90%;
+  }
+  .highlights td {
+    width: 90%;
+  }
+  .useredit, .register, .logout, .login {
+    border: none;
+    width: 400px;
+  }
+  .filter {
+    width: 50%;
+  }
+  .filter label {
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  #bar h1 {
+    font-size: 2.2em;
+    margin: 30px 0 0 20px;
+  }
+  #utilities {
+    margin: 20px 20px 0 0;
+  }
+  #bar a img {
+    width: 35px;
+  }
+  #bar .link-login {
+    font-size: .8em;
+    margin-top: 5px;
+  }
+  nav {
+    height: 40px;
+  }
+  nav ul {
+    width: 90%;
+    font-size: .8em;
+    margin: 10px;
+  }
+  nav ul li {
+    padding: 5px;
+  }
+  .social-media {
+    margin: -15px 27%;
+  }
+  .filter input[type="submit"] {
+    margin: 20px 35%;
+  }
+  .useredit, .register, .logout, .login {
+    width: 95%;
+    margin:  50px auto 0 auto;
+  }
+}
+
